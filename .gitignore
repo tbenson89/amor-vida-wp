@@ -1,6 +1,5 @@
-
 # ignore everything in the root except the "wp-content" directory.
-!wp-content/
+# !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
@@ -22,3 +21,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# NO PEAKing!
+.htaccess
+wp-config.php
+.DS_STORE
