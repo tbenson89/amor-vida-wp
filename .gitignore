@@ -39,3 +39,31 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+
+
+# Ignore Beaver Builder Cache
+wp-content/uploads/bb-plugin/cache/
+
+# Ignore Astra Templates
+wp-content/themes/astra/starter-templates/
+
+# Ignore Beaver Builder Templates
+wp-content/uploads/bb-plugin/templates/
+
+# Ignore Elementor Cache
+wp-content/uploads/elementor/css/
+
+# Ignore Elementor Preview Images
+wp-content/uploads/elementor/thumbs/
+
+# Ignore Elementor Templates
+wp-content/uploads/elementor/templates/
+
+# Ignore other temporary files and folders
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
